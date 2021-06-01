@@ -7,5 +7,5 @@
 </section>
 
 <script>
-  import Sapper from '../../../SAPPER.md';
+  import Sapper from '../../SAPPER.md';
 </script>
