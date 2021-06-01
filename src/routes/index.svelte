@@ -1,3 +1,28 @@
+<script>
+  import {
+    mdiMaterialDesign,
+    mdiSass,
+    mdiHuman,
+    mdiGestureTap,
+    mdiMonitorScreenshot,
+    mdiPalette,
+    mdiCommentArrowLeft,
+    mdiAccountGroup,
+    mdiRotateRightVariant,
+    mdiClipboardCheck,
+  } from "@mdi/js";
+  import Paper, { Title, Content } from "@smui/paper";
+  import List, {
+    Item,
+    Graphic,
+    Text,
+    PrimaryText,
+    SecondaryText,
+  } from "@smui/list";
+  import { Icon } from "@smui/common";
+  import Svg from "@smui/common/Svg.svelte";
+</script>
+
 <svelte:head>
   <title>Svelte Material UI 中文网</title>
 </svelte:head>
@@ -37,7 +62,7 @@
         </Title>
         <Content>
           SMUI 为各种界面元素提供基于 Svelte 的组件与操作。同时 SMUI
-          还提供用于构建自定义和高级 UI 组件的辅助实用程序。
+          还提供用于构建自定义和高级 UI 组件的辅助实用工具。
         </Content>
       </Paper>
       <Paper color="svelte-blue" class="box">
@@ -54,17 +79,16 @@
           </Icon>
         </Title>
         <Content>
-          SMUI is based on the awesome <a
+          SMUI 基于 Google 出色的 <a
             style="color: #fff;"
             href="https://material.io/develop/web"
             target="_blank">Material Design Component for Web</a
-          >, by Google. It integrates these components using the
+          >。它使用
           <a
             style="color: #fff;"
             href="https://material.io/develop/web/guides/framework-integration"
             target="_blank">"Advanced Approach"</a
-          >, where the component Foundation does the business logic, and the
-          SMUI component handles DOM updates and data binding.
+          > 集成这些组件，其中 Foundation 组件执行业务逻辑，SMUI 组件处理 DOM 更新和数据绑定。
         </Content>
       </Paper>
       <Paper color="secondary" class="box">
@@ -81,10 +105,9 @@
           </Icon>
         </Title>
         <Content>
-          Like MDC, SMUI is styled through Sass. SMUI supports all of the mixins
-          provided by Material Design Components for Web, and provides some
-          additional helpful mixins. You can customize the look of your UI with
-          just a few variables.
+          与 MDC 一样，SMUI 也是通过 Sass 设计的。 SMUI 支持 Material Design
+          Components for Web 提供的所有 mixins，并提供了一些额外的有用的
+          mixins。您只需使用几个变量即可自定义 UI 的外观。
         </Content>
       </Paper>
     </div>
@@ -276,31 +299,6 @@
   </div>
 </section>
 
-<script>
-  import {
-    mdiMaterialDesign,
-    mdiSass,
-    mdiHuman,
-    mdiGestureTap,
-    mdiMonitorScreenshot,
-    mdiPalette,
-    mdiCommentArrowLeft,
-    mdiAccountGroup,
-    mdiRotateRightVariant,
-    mdiClipboardCheck,
-  } from '@mdi/js';
-  import Paper, { Title, Content } from '@smui/paper';
-  import List, {
-    Item,
-    Graphic,
-    Text,
-    PrimaryText,
-    SecondaryText,
-  } from '@smui/list';
-  import { Icon } from '@smui/common';
-  import Svg from '@smui/common/Svg.svelte';
-</script>
-
 <style>
   section {
     z-index: 0;
@@ -310,9 +308,9 @@
   }
 
   section::before {
-    content: ' ';
+    content: " ";
     z-index: -1;
-    background-image: url('/logo.png');
+    background-image: url("/logo.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
