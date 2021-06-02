@@ -58,7 +58,7 @@
           <Tooltip>View {file} on GitHub</Tooltip>
         </Wrapper>
       {/each}
-      <Wrapper>
+      <!-- <Wrapper>
         <IconButton toggle bind:pressed={show}>
           <Icon component={Svg} viewBox="0 0 24 24" on>
             <path fill="currentColor" d={mdiCodeTagsCheck} />
@@ -68,7 +68,7 @@
           </Icon>
         </IconButton>
         <Tooltip>{show ? 'Hide' : 'Show'} the source code</Tooltip>
-      </Wrapper>
+      </Wrapper> -->
     </ActionIcons>
   </Actions>
 </Card>
