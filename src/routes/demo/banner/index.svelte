@@ -5,15 +5,15 @@
 <Fixed />
 
 <section>
-  <h2>Banner</h2>
+  <h2>Banner 横幅</h2>
 
   <pre class="demo-spaced">npm i -D @smui/banner</pre>
 
   <Demo component="Shown above." file="banner/_Fixed.svelte" />
 
-  <Demo component={General} file="banner/_General.svelte">Banner options</Demo>
+  <Demo component={General} file="banner/_General.svelte">横幅选项</Demo>
 
-  <Demo component={Icon} file="banner/_Icon.svelte">Banner with icon</Demo>
+  <Demo component={Icon} file="banner/_Icon.svelte">带图标的横幅</Demo>
 </section>
 
 <script>

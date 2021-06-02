@@ -1,9 +1,8 @@
 <Banner open fixed mobileStacked content$style="max-width: max-content;">
   <Label slot="label">
-    This is a fixed banner! It's here to let you know an important thing. Once
-    you've successfully known the thing, you can dismiss it.
+    这是一个固定的横幅！在这里是让您知道一件重要的事件。一旦您成功地了解了这件事，你就可以忽略它。
   </Label>
-  <Button slot="actions">I Know It</Button>
+  <Button slot="actions">我知道了</Button>
 </Banner>
 
 <script>

@@ -1,19 +1,19 @@
 <div>
   <FormField>
     <Checkbox bind:checked={open} />
-    <span slot="label">Open</span>
+    <span slot="label">开启</span>
   </FormField>
   <FormField>
     <Checkbox bind:checked={centered} />
-    <span slot="label">Centered</span>
+    <span slot="label">居中</span>
   </FormField>
   <FormField>
     <Checkbox bind:checked={mobileStacked} />
-    <span slot="label">Mobile Stacked</span>
+    <span slot="label">移动端堆叠</span>
   </FormField>
 </div>
 
-<pre class="status">Closed Reason: {closedReason}</pre>
+<pre class="status">关闭原因: {closedReason}</pre>
 
 <div class="top-app-bar-container">
   <TopAppBar variant="static">
@@ -30,10 +30,10 @@
     on:MDCBanner:closed={(event) => (closedReason = event.detail.reason)}
   >
     <Icon slot="icon" class="material-icons">favorite</Icon>
-    <Label slot="label">This is a banner with an icon and some actions.</Label>
+    <Label slot="label">这是一个带图标且带有事件的横幅。</Label>
     <svelte:fragment slot="actions">
-      <Button secondary>Secondary</Button>
-      <Button>Primary</Button>
+      <Button secondary>次按钮</Button>
+      <Button>主按钮</Button>
     </svelte:fragment>
   </Banner>
   <div>
@@ -56,5 +56,5 @@
   let centered = false;
   let mobileStacked = true;
 
-  let closedReason = 'None yet.';
+  let closedReason = '未知。';
 </script>

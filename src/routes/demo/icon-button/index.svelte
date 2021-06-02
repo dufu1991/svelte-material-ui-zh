@@ -3,17 +3,17 @@
 </svelte:head>
 
 <section>
-  <h2>Icon Button</h2>
+  <h2>Icon Button 图标按钮</h2>
 
   <pre class="demo-spaced">npm i -D @smui/icon-button</pre>
 
   <Demo component={Simple} file="icon-button/_Simple.svelte" />
 
   <Demo component={Toggle} file="icon-button/_Toggle.svelte">
-    Toggle buttons
+    切换按钮
   </Demo>
 
-  <Demo component={Svgs} file="icon-button/_Svgs.svelte">Using SVGs</Demo>
+  <Demo component={Svgs} file="icon-button/_Svgs.svelte">使用 SVG</Demo>
 </section>
 
 <script>

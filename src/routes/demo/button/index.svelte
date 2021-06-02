@@ -1,62 +1,60 @@
+<script>
+  import Demo from "../../../components/Demo.svelte";
+  import Simple from "./_Simple.svelte";
+  import SecondaryColor from "./_SecondaryColor.svelte";
+  import Variants from "./_Variants.svelte";
+  import Touch from "./_Touch.svelte";
+  import Icons from "./_Icons.svelte";
+  import Link from "./_Link.svelte";
+  import Groups from "./_Groups.svelte";
+  import SplitButtons from "./_SplitButtons.svelte";
+  import Round from "./_Round.svelte";
+  import Notched from "./_Notched.svelte";
+</script>
+
 <svelte:head>
   <title>Button - SMUI</title>
 </svelte:head>
 
 <section>
-  <h2>Button</h2>
+  <h2>Button 按钮</h2>
 
   <pre class="demo-spaced">npm i -D @smui/button</pre>
 
   <Demo component={Simple} file="button/_Simple.svelte" />
 
   <Demo component={SecondaryColor} file="button/_SecondaryColor.svelte">
-    Secondary color
+    辅助色
   </Demo>
 
-  <Demo component={Variants} file="button/_Variants.svelte">Variants</Demo>
+  <Demo component={Variants} file="button/_Variants.svelte">多样性按钮</Demo>
 
-  <Demo component={Touch} file="button/_Touch.svelte">
-    Increased touch target
-  </Demo>
+  <Demo component={Touch} file="button/_Touch.svelte">增强触控元素</Demo>
 
-  <Demo component={Icons} file="button/_Icons.svelte">Icons</Demo>
+  <Demo component={Icons} file="button/_Icons.svelte">带图标按钮</Demo>
 
-  <Demo component={Link} file="button/_Link.svelte">Link</Demo>
+  <Demo component={Link} file="button/_Link.svelte">链接按钮</Demo>
 
-  <Demo component={Groups} file="button/_Groups.svelte">Button groups</Demo>
+  <Demo component={Groups} file="button/_Groups.svelte">按钮组</Demo>
 
   <Demo component={SplitButtons} file="button/_SplitButtons.svelte">
-    Split buttons using a button group
+    使用按钮组区分按钮
   </Demo>
 
   <Demo
     component={Round}
-    files={['button/_Round.svelte', 'button/_Round.scss']}
+    files={["button/_Round.svelte", "button/_Round.scss"]}
   >
-    Creating rounded buttons with Sass mixins
+    使用 sass mixins 创建圆形按钮
   </Demo>
 
   <Demo
     component={Notched}
-    files={['button/_Notched.svelte', 'button/_Notched.scss']}
+    files={["button/_Notched.svelte", "button/_Notched.scss"]}
   >
-    Creating notched buttons with Sass
+    使用 sass 创建缺口按钮
   </Demo>
 </section>
-
-<script>
-  import Demo from '../../../components/Demo.svelte';
-  import Simple from './_Simple.svelte';
-  import SecondaryColor from './_SecondaryColor.svelte';
-  import Variants from './_Variants.svelte';
-  import Touch from './_Touch.svelte';
-  import Icons from './_Icons.svelte';
-  import Link from './_Link.svelte';
-  import Groups from './_Groups.svelte';
-  import SplitButtons from './_SplitButtons.svelte';
-  import Round from './_Round.svelte';
-  import Notched from './_Notched.svelte';
-</script>
 
 <style>
   * :global(.mdc-button, .smui-button__group) {

@@ -1,6 +1,6 @@
-# Installation
+# 安装
 
-To get started, install the SMUI packages.
+首先，安装 SMUI。
 
 ```sh
 npm install --save @smui/button
@@ -8,13 +8,13 @@ npm install --save @smui/card
 # etc...
 ```
 
-You can also [use SMUI in the Svelte REPL](REPL.md).
+您还可以在 [Svelte REPL 中使用 SMUI](REPL.md)。
 
-## Importing Components
+## 导入组件
 
-You will always import Svelte components from the individual packages.
+您将始终从各个包中导入 Svelte 组件。
 
-This method will only include the JavaScript. Use this for the Default Theme or the [Easy Styling Method](SASS.md#easy-styling-method).
+此方法将仅包含 JavaScript。将此用于默认主题或[简单样式方法](SASS.md#easy-styling-method)。
 
 ```svelte
 <script>
@@ -22,7 +22,7 @@ This method will only include the JavaScript. Use this for the Default Theme or 
 </script>
 ```
 
-This method will include Sass files as well. Use this for the [Advanced Styling Method](SASS.md#advanced-styling-method).
+此方法也将包含 Sass 文件。将此用于[高级样式方法](SASS.md#advanced-styling-method)。
 
 ```svelte
 <script>
@@ -30,11 +30,11 @@ This method will include Sass files as well. Use this for the [Advanced Styling 
 </script>
 ```
 
-Notice that adding "/styled" to your import path means Sass files will be imported.
+请注意，在导入路径中添加”/styled”意味着将导入 Sass 文件。
 
-## Material Fonts
+## Material 字体
 
-If you want the Material Icon, Roboto, and Roboto Mono fonts, be sure to include these stylesheets (or include them from a package).
+如果您需要使用 Material Icon、Roboto 和 Roboto Mono 字体，请确保包含这些样式表（或组件包中包含它们）。
 
 ```html
 <!-- Material Icons -->
@@ -54,9 +54,9 @@ If you want the Material Icon, Roboto, and Roboto Mono fonts, be sure to include
 />
 ```
 
-## Using the Default Theme
+## 使用默认主题
 
-You can use the prebuilt "bare.css" file from the "svelte-material-ui" package. If you use this option you _can_ mostly customize your theme, but your [theming options](THEMING.md#theming-the-bare-css) are more limited.
+您可以使用“svelte-material-ui”包中预构建的“bare.css”文件。如果您使用此选项，您可以在大多数情况下自定义您的主题，但您的[主题配置选项](THEMING.md#theming-the-bare-css)将会受限。
 
 ```sh
 npm install --save svelte-material-ui
@@ -66,7 +66,7 @@ npm install --save svelte-material-ui
 <link rel="stylesheet" href="node_modules/svelte-material-ui/bare.css" />
 ```
 
-If that's not working (probably because your dependencies aren't copied to your build folder), you can also use a CDN. Just be sure you update the version here when you update to a new version of SMUI.
+如果这不起作用（可能是因为您的依赖项未复制到您的构建文件夹），您还可以使用 CDN。当您更新到新版本的 SMUI 时，请确保此处也是最新版本。
 
 ```html
 <link
@@ -75,12 +75,12 @@ If that's not working (probably because your dependencies aren't copied to your 
 />
 ```
 
-You can also use the "bare.css" files from the individual packages if you don't use many components and want smaller file sizes.
+如果您不使用那么多的组件并且希望打包文件更小，您也可以使用各个包中的“bare.css”文件。
 
-## Using a Custom Theme
+## 使用自定义主题
 
-Check out the [Sass instructions](SASS.md) for setting up a custom theme.
+查看有关设置自定义主题的 [Sass 说明](SASS.md)。
 
 ## SvelteKit
 
-For SvelteKit, check out the [SvelteKit instructions](SVELTEKIT.md).
+关于 SvelteKit，请查看 [SvelteKit 说明](SVELTEKIT.md)。

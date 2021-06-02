@@ -1,66 +1,64 @@
-# Migrating to Newer SMUI Versions
+# 迁移到较新的 SMUI 版本
 
-This doc contains information that will help you migrate your code from an older version of SMUI to a newer one. Things that you will need to change in your existing code will be written here. It would also be helpful to check the MDC changelog if the upstream MDC versions has changed between SMUI versions.
+本文档包含的信息可帮助您将代码从旧版本的 SMUI 迁移到新版本。您现有代码中需要更改的内容将会在此处编写。如果 MDC 的原始版本与 SMUI 版本之间发生了更改，查看 MDC 更改日志也会很有帮助。
 
 # SMUI 4.0 -> SMUI 4.1
 
-- Event modifiers have changed to use "$" instead of ":" (`on:click$capture={handler}`), so that all events, even MDC events, can be bound with modifiers.
-  - The old ":" syntax will still work, it will just give a warning in the console.
+- 事件修饰符已更改为使用“$”而不是“:”（ `on:click$capture={handler}`）」，因此所有事件，甚至 MDC 事件，都可以与修饰符绑定。
+  - 旧的“:”语法仍然有效，只会在控制台中发出警告。
 
 # SMUI 3 -> SMUI 4
 
-## Breaking Changes
+## 重大变化
 
-Components no longer import styles from their "index.js" files. If you were using "/bare" before, you don't need to anymore. If you were relying on styles being imported, you now need to use the "/styled" endpoint for components.
+组件不再从它们的“index.js”文件中导入样式。如果你之前使用过“/bare”，你就不需要了。如果您依赖于导入的样式，则现在需要对组件使用“/styled”结尾。
 
-Check out the new [smui-theme](https://github.com/hperrin/svelte-material-ui/tree/master/packages/smui-theme) package. It can help you with your themes.
+查看新的 [smui-theme](https://github.com/hperrin/svelte-material-ui/tree/master/packages/smui-theme) 包。它可以帮助您处理主题。
 
 # SMUI 3.0 -> SMUI 3.1
 
-SMUI 3.1 migrated to upstream MDC 11.0 from 10.0:
-https://github.com/material-components/material-components-web/blob/master/CHANGELOG.md#1100-2021-04-15
+SMUI 3.1 开始 MDC 原始版本从 10.0 迁移到 11.0：https://github.com/material-components/material-components-web/blob/master/CHANGELOG.md#1100-2021-04-15
 
-You should update your MDC dependencies to 11.0 as well.
+您也应该将 MDC 依赖项更新到 11.0。
 
-## Breaking Changes
+## 重大变化
 
-### Theming, Sass
+### 主题，Sass
 
-- MDC-Web chips trailing actions class changed.
-- MDC-Web list classes changed.
+- MDC-Web 纸片拖拽动作类已改变。
+- MDC-Web 列表类已改变。
 
-## New Features
+## 新功能
 
-### Compoennts
+### 组件
 
-- Banner
-  - Add focus trap on the banner.
-- Dialog
-  - New `fullscreen` prop.
-  - New `over` slot.
-- Menu Surface
-  - New `maxHeight` prop.
-  - New `horizontallyCenteredOnViewport` prop.
-- Slider
-  - Rounds values to correct decimal places based on `step` prop.
-- Tooltip
-  - New `attachScrollHandler` and `removeScrollHandler` functions for adding additional scrollable elements to handle. Both accept a function.
+- Banner 横幅
+  - 在横幅上添加焦点陷阱。
+- Dialog 对话框
+  - 新的 `fullscreen` 属性.
+  - 新的 `over` 插槽.
+- Menu Surface 菜单表面
+  - 新的 `maxHeight` 属性.
+  - 新的 `horizontallyCenteredOnViewport` 属性.
+- Slider 滑块
+  - 根据 step 属性舍入值以更正小数位。
+- Tooltip 提示
+  - 新的 attachScrollHandler 和 removeScrollHandler 函数，用于添加要处理的其他可滚动元素。两者都接受一个函数。
 
 # SMUI 2 -> SMUI 3
 
-You will need to migrate to Dart Sass. `node-sass` is no longer supported, as it is deprecated and too old now.
+你需要迁移到 Dart Sass。不再支持 node-sass，因为它已被弃用而且现在的版本也太旧了。
 
 ```sh
 npm un -D node-sass
 npm i -D sass
 ```
 
-SMUI 3 migrated to upstream MDC 10.0 from 4.0:
-https://github.com/material-components/material-components-web/blob/master/CHANGELOG.md#1000-2021-02-05
+SMUI 3 从 4.0 开始迁移到原始分支 MDC 10.0：https://github.com/material-components/material-components-web/blob/master/CHANGELOG.md#1000-2021-02-05
 
-There are [newly updated instructiong](SAPPER.md) for using SMUI in Sapper.
+在 Sapper 中使用 SMUI 有[新的更新说明](SAPPER.md)。
 
-## Breaking Changes
+## 重大变化
 
 ### Theming, Sass
 

@@ -30,7 +30,10 @@
 <section>
   <div style="margin: 3em 0;">
     <h2 style="margin-bottom: 0;">Svelte Material UI</h2>
-    <p class="mdc-typography--subtitle1">基于 Svelte 3 的 Material UI 组件库</p>
+    <p class="mdc-typography--subtitle1">
+      基于 <a href="https://svelte.dev" target="_blank">Svelte 3</a> 的
+      <a href="https://material.io" target="_blank">Material</a> UI 组件库
+    </p>
   </div>
 
   <div style="margin: 3em 0;">
@@ -113,7 +116,7 @@
     </div>
 
     <div style="margin: 6em 0 3em;">
-      <h4>SMUI Features and Values</h4>
+      <h4>SMUI 的特性与价值</h4>
     </div>
 
     <div style="margin: 3em 0;">
@@ -133,12 +136,12 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>Accessible by Default</PrimaryText>
+            <PrimaryText>可访问性</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              SMUI automatically adds appropriate ARIA attributes to components
-              to provide accessibility to screen readers. SMUI is also fully
-              keyboard accessible, meaning motor impaired users can easily use
-              SMUI components.
+              SMUI 会自动向组件添加适当的 ARIA
+              属性，以提供屏幕阅读器的可访问性。 SMUI
+              也完全可以通过键盘访问，这意味着行动不便的用户可以轻松使用 SMUI
+              组件。
             </SecondaryText>
           </Text>
         </Item>
@@ -153,11 +156,10 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>Touch Friendly</PrimaryText>
+            <PrimaryText>触控优化</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              SMUI provides increased touch targets to allow ease of use on
-              mobile devices, conforming to the Material Spec requirement of
-              minimum 48px x 48px touch targets.
+              SMUI 提供了更多的触摸方法，以方便在移动设备上使用，符合 Material
+              规范对最小 48px * 48px 触摸目标的要求。
             </SecondaryText>
           </Text>
         </Item>
@@ -172,11 +174,12 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>Server Side Rendering</PrimaryText>
+            <PrimaryText>服务端渲染</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              SMUI can be fully rendered on the server, meaning faster time to
-              first meaningful paint. SMUI fully supports Sapper. In fact, the
-              site you're looking at is a Sapper app.
+              SMUI
+              可以在服务器上完全呈现，这意味着更快地进行第一次有意义的渲染。
+              SMUI 完全支持 Sapper。事实上，您正在查看的站点是一个 Sapper
+              应用程序。
             </SecondaryText>
           </Text>
         </Item>
@@ -191,11 +194,10 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>Fully Themable</PrimaryText>
+            <PrimaryText>完整主题</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              Components are themable using Sass variables, provided by MDC-Web.
-              Everything from their shape, color, density, borders, interaction
-              states, and more is themable.
+              组件可以使用 MDC-Web 提供的 Sass
+              变量进行主题化。从形状、颜色、密度、边界、交互状态等所有内容都可以进行主题化。
             </SecondaryText>
           </Text>
         </Item>
@@ -210,10 +212,9 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>RTL Support</PrimaryText>
+            <PrimaryText>RTL 支持</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              SMUI is RTL aware, and components will adapt their design to suit
-              the language of the user.
+              SMUI 具有 RTL 感知能力，组件将调整其设计以适应用户的语言。
             </SecondaryText>
           </Text>
         </Item>
@@ -228,14 +229,14 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>Widely Used, a Growing Community</PrimaryText>
+            <PrimaryText>使用广泛，更活跃的社区</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              With over <a
+              现已拥有超过 <a
                 href="https://github.com/hperrin/svelte-material-ui/network/dependents?package_id=UGFja2FnZS01NTM5MDg5MDQ"
-                target="_blank">500 projects</a
-              > using SMUI components, it is the most popular Svelte UI library.
-              For good reason, too. It is the most versatile and adaptable Svelte
-              UI library, guaranteed.
+                target="_blank">500 个使用 SMUI 组件的项目</a
+              >，他们都是受欢迎的 Svelte UI
+              库。这是毋庸置疑的。这些都是非常通用和适应性最强的 Svelte UI
+              库，而且是有保证的。
             </SecondaryText>
           </Text>
         </Item>
@@ -250,15 +251,14 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>Adaptable, Versatile</PrimaryText>
+            <PrimaryText>适应性强，用途广泛</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              SMUI supports adding arbitrary attributes and actions to every
-              component and many internal elements within them. SMUI forwards
-              all events from every component, and supports event modifiers,
-              including passive. SMUI works in the Svelte REPL, meaning you can <a
+              SMUI 支持向每个组件以及其中的大多数内部元素添加任意属性和操作。
+              SMUI 转发来自每个组件的所有事件，并支持事件修饰符，包括被动式的。
+              SMUI 在 Svelte REPL 中工作，这意味着您 <a
                 href="https://svelte.dev/repl/aa857c3bb5eb478cbe6b1fd6c6da522a?version=3.37.0"
-                target="_blank">play with it right now</a
-              >.
+                target="_blank">现在可以使用它</a
+              >。
             </SecondaryText>
           </Text>
         </Item>
@@ -273,10 +273,10 @@
             </Icon>
           </Graphic>
           <Text>
-            <PrimaryText>Material Design Compliant</PrimaryText>
+            <PrimaryText>符合 Material Design</PrimaryText>
             <SecondaryText style="white-space: normal;">
-              Every SMUI component fully follows the Material Design
-              specification. You can build up-to-spec UIs with SMUI.
+              每个 SMUI 组件都完全遵循 Material Design 规范。您可以使用 SMUI
+              构建符合规范的 UI。
             </SecondaryText>
           </Text>
         </Item>

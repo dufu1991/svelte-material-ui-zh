@@ -3,27 +3,27 @@
 </svelte:head>
 
 <section>
-  <h2>Floating Action Button</h2>
+  <h2>Floating Action Button 提升动作按钮</h2>
 
   <pre class="demo-spaced">npm i -D @smui/fab</pre>
 
   <Demo component={Simple} file="fab/_Simple.svelte" />
 
   <Demo component={PrimaryColor} file="fab/_PrimaryColor.svelte">
-    Primary color
+    主题色
   </Demo>
 
-  <Demo component={Exited} file="fab/_Exited.svelte">Exited</Demo>
+  <Demo component={Exited} file="fab/_Exited.svelte">退出</Demo>
 
-  <Demo component={Mini} file="fab/_Mini.svelte">Mini</Demo>
+  <Demo component={Mini} file="fab/_Mini.svelte">小尺寸</Demo>
 
-  <Demo component={Extended} file="fab/_Extended.svelte">Extended</Demo>
+  <Demo component={Extended} file="fab/_Extended.svelte">大尺寸</Demo>
 
-  <Demo component={NoRipple} file="fab/_NoRipple.svelte">No Ripple</Demo>
+  <Demo component={NoRipple} file="fab/_NoRipple.svelte">不带涟漪</Demo>
 
-  <Demo component={Link} file="fab/_Link.svelte">Link</Demo>
+  <Demo component={Link} file="fab/_Link.svelte">带链接</Demo>
 
-  <Demo component={Svg} file="fab/_Svg.svelte">Svg</Demo>
+  <Demo component={Svg} file="fab/_Svg.svelte">带 Svg 图形</Demo>
 </section>
 
 <script>
