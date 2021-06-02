@@ -2,20 +2,20 @@
   <img src="static/header-transparent.png" alt="Svelte Material UI" />
 </div>
 
-A library of Svelte 3 Material UI components, based on the [Material Design Components - Web](https://material.io/develop/web/).
+基于 [Svelte 3](https://svelte.dev/) 的 [Material Design Components - Web](https://material.io/develop/web/) UI组件库--中文文档。
 
-# Demos
+# 演示
 
-https://sveltematerialui.com
+https://sveltematerialui.cn
 
-# Features
+# 特性
 
-Here are some features you should know about:
+以下是一些您应该了解的功能：
 
-- You can add arbitrary attributes to all of the components and many of the elements within them.
-- You can add actions to the components with `use={[Action1, [Action2, action2Props], Action3]}`.
-- You can add props to lower components and elements with "$" props, like `input$maxlength="15"`.
-- **All** events are forwarded. This includes DOM events, MDC events, and custom events.
+- 您可以为所有组件和它们中的许多元素添加任意属性。
+- 您可以将操作添加到具有 `use= {[Action1，[Action2，Action2props]，Action3]}`的组件。
+- 您可以使用`$`属性为下级的组件和元素添加属性，例如 `input$maxlength="15"`。
+- **所有** 事件都会被转发。包括 DOM 事件，MDC 事件和自定义事件。
   - You can add event modifiers with the `on:click$preventDefault$capture={handler}` syntax.
     - If you use Svelte's native `on:click|preventDefault={handler}` syntax, it will not compile. You have to use "$" instead of "|". (The extra S inside the | stands for SMUI.)
   - Supported modifiers are:
@@ -48,7 +48,8 @@ If you need help using SMUI, join the new [Discord server](https://discord.gg/aF
 
 Click a component/package below to go to the documentation. (Note that this documentation is a work in progress. The demo code should be your main source of truth for how something works.)
 
-- [Banner](packages/banner/README.md)
+<!-- - [Banner](packages/banner/README.md) -->
+- [Banner](https://sveltematerialui.cn/demo/banner)
 - [Button](packages/button/README.md)
   - [Floating Action Button](packages/fab/README.md)
   - [Icon Button](packages/icon-button/README.md)
