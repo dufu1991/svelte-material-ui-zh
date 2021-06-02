@@ -368,7 +368,7 @@ a:visited {
   margin-bottom: 0.4rem;
 }
 .smui-paper .smui-paper__content {
-  text-align:justify;
+  text-align: justify;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: Roboto, sans-serif;
