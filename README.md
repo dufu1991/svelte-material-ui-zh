@@ -66,13 +66,9 @@ https://sveltematerialui.cn
 - [Touch Target](packages/touch-target/README.md)
 - [Typography](https://sveltematerialui.com/demo/typography/)†
 
-<sub>† This is Sass based, and therefore doesn't require Svelte components. I've included a demo showing how you can use it.</sub>
+<sub>† 这是基于 Sass 的，因此不需要 Svelte 组件。我已经包含了一个演示，展示了如何使用它。</sub>
 
-<sub>‡ This is not an MDC Web component. It is an addition that SMUI provides.</sub>
-
-# Support
-
-You can support my work on this project through my other project, [Tunnelgram](https://tunnelgram.com). I have a [Patreon](https://www.patreon.com/tunnelgram) set up for it. I started this project in order to Materialize Tunnelgram.
+<sub>‡ 这不是 MDC Web 组件。它是 SMUI 提供的附加功能。</sub>
 
 # License
 
