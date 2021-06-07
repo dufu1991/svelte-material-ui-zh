@@ -1,6 +1,6 @@
 # 安装
 
-首先，安装 SMUI。
+首先，安装 SMUI 组件。
 
 ```sh
 npm install --save @smui/button

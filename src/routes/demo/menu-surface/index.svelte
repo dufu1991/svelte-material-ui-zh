@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section>
-  <h2>Menu Surface</h2>
+  <h2>Menu Surface 菜单表面</h2>
 
   <pre class="demo-spaced">npm i -D @smui/menu-surface</pre>
 
@@ -12,7 +12,7 @@
   <Demo component={Static} file="menu-surface/_Static.svelte" />
 
   <Demo component={Anchored} file="menu-surface/_Anchored.svelte">
-    Anchored automatically, corner set to bottom-left
+    起点自动固定在左下角
   </Demo>
 
   <Demo
@@ -22,10 +22,10 @@
       'menu-surface/_ManualAnchor.scss',
     ]}
   >
-    Anchored manually
+    手动固定起点
   </Demo>
 
-  <div style="padding-top: 200px;">Long div for scrolling...</div>
+  <div style="padding-top: 200px;">用于滚动的长 div...</div>
 </section>
 
 <script>

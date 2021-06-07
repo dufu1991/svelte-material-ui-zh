@@ -2,53 +2,22 @@
   <img src="static/header-transparent.png" alt="Svelte Material UI" />
 </div>
 
-基于 [Svelte 3](https://svelte.dev/) 的 [Material Design Components - Web](https://material.io/develop/web/) UI组件库--中文文档。
+基于 [Svelte 3](https://svelte.dev/) 的 [Material Design Components - Web](https://material.io/develop/web/) UI 组件库--中文文档。
 
 # 演示
 
 https://sveltematerialui.cn
 
-# 特性
+# 安装
 
-以下是一些您应该了解的功能：
+请查看安装文档 [installation docs](INSTALL.md).
 
-- 您可以为所有组件和它们中的许多元素添加任意属性。
-- 您可以将操作添加到具有 `use= {[Action1，[Action2，Action2props]，Action3]}`的组件。
-- 您可以使用`$`属性为下级的组件和元素添加属性，例如 `input$maxlength="15"`。
-- **所有** 事件都会被转发。包括 DOM 事件，MDC 事件和自定义事件。
-  - You can add event modifiers with the `on:click$preventDefault$capture={handler}` syntax.
-    - If you use Svelte's native `on:click|preventDefault={handler}` syntax, it will not compile. You have to use "$" instead of "|". (The extra S inside the | stands for SMUI.)
-  - Supported modifiers are:
-    - preventDefault
-    - stopPropagation
-    - passive
-    - nonpassive
-    - capture
-    - once
-- Labels and icons are named exports in the components that use them, or you can use the 'Label' and 'Icon' exports from '@smui/common'. (Except for chips labels and icons, textfield icons, and select icons, because they are special snowflakes.)
-- SMUI [supports RTL languages](https://svelte.dev/repl/c2ff2d5dd5404eccb901ba04ef0161be?version=3.37.0).
+# 组件
 
-# Installation
-
-To get started, check out the [installation docs](INSTALL.md).
-
-# Migration
-
-Upgrading from an old version? Be sure to read the [migration doc](MIGRATING.md).
-
-Upgrading from v2? There are **lots** of changes listed in the [upgrade instructions](MIGRATING.md#smui-2---smui-3).
-
-Upgrading from v3? SMUI's styling method has been simplified. Check out the [upgrade instructions](MIGRATING.md#smui-3---smui-4).
-
-# Need Help?
-
-If you need help using SMUI, join the new [Discord server](https://discord.gg/aFzmkrmg9P).
-
-# Components
-
-Click a component/package below to go to the documentation. (Note that this documentation is a work in progress. The demo code should be your main source of truth for how something works.)
+单击下面的组件/包以转到在线文档。 （请注意，此文档正在开发中。演示代码应该是您了解某些工作原理的主要事实来源。）
 
 <!-- - [Banner](packages/banner/README.md) -->
+
 - [Banner](https://sveltematerialui.cn/demo/banner)
 - [Button](packages/button/README.md)
   - [Floating Action Button](packages/fab/README.md)

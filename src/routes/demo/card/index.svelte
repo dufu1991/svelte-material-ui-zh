@@ -3,19 +3,19 @@
 </svelte:head>
 
 <section>
-  <h2>Cards</h2>
+  <h2>Cards 卡片</h2>
 
   <pre class="demo-spaced">npm i -D @smui/card</pre>
 
   <Demo component={Simple} file="card/_Simple.svelte" />
 
-  <Demo component={Actions} file="card/_Actions.svelte">With Actions</Demo>
+  <Demo component={Actions} file="card/_Actions.svelte">带事件卡片</Demo>
 
-  <Demo component={Media} file="card/_Media.svelte">With Media</Demo>
+  <Demo component={Media} file="card/_Media.svelte">带媒体卡片</Demo>
 
-  <Demo component={List} file="card/_List.svelte">With a List</Demo>
+  <Demo component={List} file="card/_List.svelte">带一条列表的卡片</Demo>
 
-  <Demo component={Complex} file="card/_Complex.svelte">Complex</Demo>
+  <Demo component={Complex} file="card/_Complex.svelte">组合使用</Demo>
 </section>
 
 <script>

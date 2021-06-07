@@ -3,19 +3,19 @@
 </svelte:head>
 
 <section>
-  <h2>Form Fields</h2>
+  <h2>Form Fields 表单字段</h2>
 
   <pre class="demo-spaced">npm i -D @smui/form-field</pre>
 
-  <Demo component={Checkbox} file="form-field/_Checkbox.svelte">Checkbox</Demo>
+  <Demo component={Checkbox} file="form-field/_Checkbox.svelte">复选框</Demo>
 
   <Demo component={EndAlignment} file="form-field/_EndAlignment.svelte">
-    End alignment
+    末端位置
   </Demo>
 
-  <Demo component={Radio} file="form-field/_Radio.svelte">Radio button</Demo>
+  <Demo component={Radio} file="form-field/_Radio.svelte">圆形按钮</Demo>
 
-  <Demo component={Switch} file="form-field/_Switch.svelte">Switch</Demo>
+  <Demo component={Switch} file="form-field/_Switch.svelte">开关</Demo>
 </section>
 
 <script>

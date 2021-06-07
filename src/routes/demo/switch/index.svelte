@@ -3,17 +3,17 @@
 </svelte:head>
 
 <section>
-  <h2>Switch</h2>
+  <h2>Switch 开关</h2>
 
   <pre class="demo-spaced">npm i -D @smui/switch</pre>
 
   <Demo component={Simple} file="switch/_Simple.svelte" />
 
   <Demo component={PrimaryColor} file="switch/_PrimaryColor.svelte">
-    Primary color
+    主题色
   </Demo>
 
-  <Demo component={Group} file="switch/_Group.svelte">Group switch</Demo>
+  <Demo component={Group} file="switch/_Group.svelte">开关组</Demo>
 </section>
 
 <script>

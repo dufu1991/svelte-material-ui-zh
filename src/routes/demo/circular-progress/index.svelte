@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section>
-  <h2>Circular Progress</h2>
+  <h2>Circular Progress 环状进度条</h2>
 
   <pre class="demo-spaced">npm i -D @smui/circular-progress</pre>
 
@@ -13,7 +13,7 @@
     component={Indeterminate}
     file="circular-progress/_Indeterminate.svelte"
   >
-    Indeterminate
+    不确定
   </Demo>
 
   <Demo
@@ -23,7 +23,7 @@
       'circular-progress/_FourColor.scss',
     ]}
   >
-    Four Color
+    四种颜色
   </Demo>
 
   <Demo
@@ -33,7 +33,7 @@
       'circular-progress/_Colored.scss',
     ]}
   >
-    Colored (using Sass mixins)
+    彩色 (使用 Sass mixins)
   </Demo>
 </section>
 

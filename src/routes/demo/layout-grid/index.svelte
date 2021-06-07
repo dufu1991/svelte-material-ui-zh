@@ -3,8 +3,8 @@
 </svelte:head>
 
 <section>
-  <h2>Layout Grid</h2>
-  <p>Try resizing your window to see the cells adapt to the new size.</p>
+  <h2>Layout Grid 布局</h2>
+  <p>尝试调整窗口大小来查看单元格适应新的尺寸。</p>
 
   <pre class="demo-spaced">npm i -D @smui/layout-grid</pre>
 
@@ -18,12 +18,12 @@
     component={FixedColumnWidth}
     file="layout-grid/_FixedColumnWidth.svelte"
   >
-    Fixed Column Width
+    固定列宽
   </Demo>
 
-  <Demo component={Align} file="layout-grid/_Align.svelte">Align</Demo>
+  <Demo component={Align} file="layout-grid/_Align.svelte">对齐</Demo>
 
-  <Demo component={Nested} file="layout-grid/_Nested.svelte">Nested</Demo>
+  <Demo component={Nested} file="layout-grid/_Nested.svelte">嵌套</Demo>
 </section>
 
 <script>

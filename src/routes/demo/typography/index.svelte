@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section>
-  <h2>Typography</h2>
+  <h2>Typography 排版</h2>
 
   <pre class="demo-spaced">npm i -D @material/typography</pre>
 

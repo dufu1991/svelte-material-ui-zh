@@ -3,29 +3,29 @@
 </svelte:head>
 
 <section>
-  <h2>Chips</h2>
+  <h2>Chips 纸片</h2>
 
   <pre class="demo-spaced">npm i -D @smui/chips</pre>
 
   <Demo component={Simple} file="chips/_Simple.svelte" />
 
   <Demo component={NonInteractive} file="chips/_NonInteractive.svelte">
-    Non-interactive chips
+    不带交互的纸片
   </Demo>
 
-  <Demo component={Choice} file="chips/_Choice.svelte">Choice chips</Demo>
+  <Demo component={Choice} file="chips/_Choice.svelte">可选择纸片</Demo>
 
   <Demo component={Filter} file="chips/_Filter.svelte">
-    Filter chips with increased touch target
+    选中目标增加的纸片
   </Demo>
 
   <Demo component={FilterIcons} file="chips/_FilterIcons.svelte">
-    The same, but with leading icons
+    大小相同，但带有前导图标
   </Demo>
 
-  <Demo component={Input} file="chips/_Input.svelte">Input chips</Demo>
+  <Demo component={Input} file="chips/_Input.svelte">输入纸片</Demo>
 
-  <Demo component={Keyed} file="chips/_Keyed.svelte">Keyed chips</Demo>
+  <Demo component={Keyed} file="chips/_Keyed.svelte">点击纸片</Demo>
 </section>
 
 <script>

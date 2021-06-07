@@ -3,37 +3,37 @@
 </svelte:head>
 
 <section>
-  <h2>Select</h2>
+  <h2>Select 选择器</h2>
 
   <pre class="demo-spaced">npm i -D @smui/select</pre>
 
   <Demo component={Showcase} file="select/_Showcase.svelte" />
 
-  <Demo component={Standard} file="select/_Standard.svelte">Standard</Demo>
+  <Demo component={Standard} file="select/_Standard.svelte">标准</Demo>
 
-  <Demo component={Filled} file="select/_Filled.svelte">Filled</Demo>
+  <Demo component={Filled} file="select/_Filled.svelte">有填充</Demo>
 
-  <Demo component={Outlined} file="select/_Outlined.svelte">Outlined</Demo>
+  <Demo component={Outlined} file="select/_Outlined.svelte">有边框</Demo>
 
   <Demo component={ShapedFilled} file="select/_ShapedFilled.svelte">
-    Shaped Filled
-    <svelte:fragment slot="subtitle">Styled with CSS</svelte:fragment>
+    异形填充
+    <svelte:fragment slot="subtitle">使用 CSS 修改样式</svelte:fragment>
   </Demo>
 
   <Demo component={ShapedOutlined} file="select/_ShapedOutlined.svelte">
-    Shaped Outlined
-    <svelte:fragment slot="subtitle">Styled with CSS</svelte:fragment>
+    异形边框
+    <svelte:fragment slot="subtitle">使用 CSS 修改样式</svelte:fragment>
   </Demo>
 
-  <Demo component={Required} file="select/_Required.svelte">Required</Demo>
+  <Demo component={Required} file="select/_Required.svelte">必选</Demo>
 
-  <Demo component={Disabled} file="select/_Disabled.svelte">Disabled</Demo>
+  <Demo component={Disabled} file="select/_Disabled.svelte">禁用</Demo>
 
   <Demo component={ConditionalIcon} file="select/_ConditionalIcon.svelte">
-    Conditional icon
+    按条件显示图标
   </Demo>
 
-  <Demo component={Objects} file="select/_Objects.svelte">Using Objects</Demo>
+  <Demo component={Objects} file="select/_Objects.svelte">使用对象</Demo>
 </section>
 
 <script>

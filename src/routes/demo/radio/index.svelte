@@ -3,14 +3,14 @@
 </svelte:head>
 
 <section>
-  <h2>Radio</h2>
+  <h2>Radio 单选框</h2>
 
   <pre class="demo-spaced">npm i -D @smui/radio</pre>
 
   <Demo component={Simple} file="radio/_Simple.svelte" />
 
   <Demo component={Touch} file="radio/_Touch.svelte">
-    Increased touch target
+    增大触控目标
   </Demo>
 </section>
 

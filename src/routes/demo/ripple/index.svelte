@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section>
-  <h2>Ripple</h2>
+  <h2>Ripple 涟漪</h2>
 
   <pre class="demo-spaced">npm i -D @smui/ripple</pre>
 
@@ -13,7 +13,7 @@
 
   <Demo component={SecondaryColor} file="ripple/_SecondaryColor.svelte" />
 
-  <Demo component={Unbounded} file="ripple/_Unbounded.svelte">Unbounded</Demo>
+  <Demo component={Unbounded} file="ripple/_Unbounded.svelte">没有界限的</Demo>
 
   <Demo
     component={KeyboardActivation}

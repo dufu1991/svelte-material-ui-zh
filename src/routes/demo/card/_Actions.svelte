@@ -2,14 +2,14 @@
   <div class="card-container">
     <Card>
       <PrimaryAction on:click={() => clicked++} padded>
-        Primary Action, a clickable area of the card.
+        主要操作，卡片的可点击区域。
       </PrimaryAction>
     </Card>
   </div>
 
   <div class="card-container">
     <Card>
-      <Content>A card with action buttons.</Content>
+      <Content>带有操作按钮的卡片。</Content>
       <Actions>
         <Button on:click={() => clicked++}>
           <Label>Action</Label>

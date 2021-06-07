@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section>
-  <h2>Data Table</h2>
+  <h2>Data Table 数据表格</h2>
 
   <pre class="demo-spaced">npm i -D @smui/data-table</pre>
 
@@ -13,11 +13,11 @@
     component={ProgressIndicator}
     file="data-table/_ProgressIndicator.svelte"
   >
-    Progress indicator
+    进度指示器
   </Demo>
 
   <Demo component={StickyHeader} file="data-table/iframe.svelte">
-    Sticky header
+    固定表头
     <svelte:fragment slot="subtitle">
       This is displayed in an iframe and the source viewer shows the iframe
       source. Sticky headers don't work if any ancestor element has the
@@ -26,14 +26,14 @@
   </Demo>
 
   <Demo component={RowSelection} file="data-table/_RowSelection.svelte">
-    Row selection
+    选择行
   </Demo>
 
   <Demo component={Pagination} file="data-table/_Pagination.svelte">
-    Pagination
+    分页
   </Demo>
 
-  <Demo component={Sortable} file="data-table/_Sortable.svelte">Sortable</Demo>
+  <Demo component={Sortable} file="data-table/_Sortable.svelte">可排序</Demo>
 </section>
 
 <script>

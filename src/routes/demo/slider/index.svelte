@@ -3,31 +3,31 @@
 </svelte:head>
 
 <section>
-  <h2>Slider</h2>
+  <h2>Slider 滑块</h2>
 
   <pre class="demo-spaced">npm i -D @smui/slider</pre>
 
   <Demo component={Simple} file="slider/_Simple.svelte" />
 
   <Demo component={Continuous} file="slider/_Continuous.svelte">
-    Continuous
+    连续滑块
   </Demo>
 
   <Demo component={Discrete} file="slider/_Discrete.svelte">
-    Discrete with min/max/step
+    带有最小值/最大值/步骤的间续滑块
   </Demo>
 
   <Demo component={TickMarks} file="slider/_TickMarks.svelte">
-    Adding tick marks to discrete
+    有刻度线的间续滑块
   </Demo>
 
-  <Demo component={Range} file="slider/_Range.svelte">Range slider</Demo>
+  <Demo component={Range} file="slider/_Range.svelte">范围滑块</Demo>
 
   <Demo component={DiscreteRange} file="slider/_DiscreteRange.svelte">
-    Discrete range slider with tick marks
+    带刻度线的间续范围滑块
   </Demo>
 
-  <Demo component={Disabled} file="slider/_Disabled.svelte">Disabled</Demo>
+  <Demo component={Disabled} file="slider/_Disabled.svelte">禁用</Demo>
 </section>
 
 <script>

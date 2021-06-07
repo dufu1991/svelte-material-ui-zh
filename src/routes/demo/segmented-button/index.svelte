@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section>
-  <h2>Segmented Button</h2>
+  <h2>Segmented Button 按钮组</h2>
 
   <pre class="demo-spaced">npm i -D @smui/segmented-button</pre>
 
@@ -11,22 +11,22 @@
     component={SingleSelection}
     file="segmented-button/_SingleSelection.svelte"
   >
-    Single Selection
+    只能选择一项
   </Demo>
 
   <Demo
     component={GroupSelection}
     file="segmented-button/_GroupSelection.svelte"
   >
-    Group Selection
+    组合选择
   </Demo>
 
   <Demo component={IconsKeys} file="segmented-button/_IconsKeys.svelte">
-    Icons and Keyed Segments
+    带图标和按键控制
   </Demo>
 
   <Demo component={Touch} file="segmented-button/_Touch.svelte">
-    Increased Touch Target
+    增大触控目标
   </Demo>
 </section>
 

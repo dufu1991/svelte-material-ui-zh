@@ -1,30 +1,29 @@
+<script>
+  import Demo from "../../../components/Demo.svelte";
+  import Static from "./_Static.svelte";
+  import Variants from "./_Variants.svelte";
+</script>
+
 <svelte:head>
   <title>Top App Bar - SMUI</title>
 </svelte:head>
 
 <section>
-  <h2>Top App Bar</h2>
+  <h2>Top App Bar 顶部应用栏</h2>
 
   <pre class="demo-spaced">npm i -D @smui/top-app-bar</pre>
 
   <Demo component={Static} file="top-app-bar/_Static.svelte">
-    Top app bars in a container
+    在容器中的顶部应用栏
     <svelte:fragment slot="subtitle">
-      Only the "static" variant works inside containers.
+      只有“静态”变体才会在容器内生效。
     </svelte:fragment>
   </Demo>
 
   <Demo component={Variants} file="top-app-bar/iframe.svelte">
-    Page level top app bars
+    页面级顶部应用栏
     <svelte:fragment slot="subtitle">
-      These are displayed in iframes and the source viewer shows the iframe
-      source.
+      这些显示在 iframe 中，可在源查看器显示 iframe 源。
     </svelte:fragment>
   </Demo>
 </section>
-
-<script>
-  import Demo from '../../../components/Demo.svelte';
-  import Static from './_Static.svelte';
-  import Variants from './_Variants.svelte';
-</script>

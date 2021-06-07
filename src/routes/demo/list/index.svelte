@@ -3,34 +3,34 @@
 </svelte:head>
 
 <section>
-  <h2>Lists</h2>
+  <h2>Lists 列表</h2>
 
   <pre class="demo-spaced">npm i -D @smui/list</pre>
 
   <Demo component={Simple} file="list/_Simple.svelte" />
 
   <Demo component={GraphicsDense} file="list/_GraphicsDense.svelte">
-    A dense list with graphics
+    带有图标的紧密列表
   </Demo>
 
   <Demo component={NonInteractive} file="list/_NonInteractive.svelte">
-    A non-interactive list with activated item
+    带有激活项的非交互式列表
   </Demo>
 
   <Demo component={TwoLineSelection} file="list/_TwoLineSelection.svelte">
-    A two-line single selection list with avatars, disabled item, and meta
+    包含头像、禁用项和元数据的两行单选列表
   </Demo>
 
   <Demo component={ThreeLine} file="list/_ThreeLine.svelte">
-    A three-line list
+    三行列表
   </Demo>
 
-  <Demo component={Groups} file="list/_Groups.svelte">A list group</Demo>
+  <Demo component={Groups} file="list/_Groups.svelte">列表组</Demo>
 
-  <Demo component={Radio} file="list/_Radio.svelte">A radio list</Demo>
+  <Demo component={Radio} file="list/_Radio.svelte">单选列表</Demo>
 
   <Demo component={Check} file="list/_Check.svelte">
-    A check list with trailing checkboxes
+    带有复选框的列表
   </Demo>
 </section>
 

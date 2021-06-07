@@ -3,20 +3,20 @@
 </svelte:head>
 
 <section>
-  <h2>Checkbox</h2>
+  <h2>Checkbox 复选框</h2>
 
   <pre class="demo-spaced">npm i -D @smui/checkbox</pre>
 
   <Demo component={Simple} file="checkbox/_Simple.svelte" />
 
   <Demo component={Touch} file="checkbox/_Touch.svelte">
-    Increased touch target
+    加大触控目标
   </Demo>
 
-  <Demo component={Group} file="checkbox/_Group.svelte">Group checkbox</Demo>
+  <Demo component={Group} file="checkbox/_Group.svelte">复选框组</Demo>
 
   <Demo component={Indeterminate} file="checkbox/_Indeterminate.svelte">
-    Indeterminate
+    不确定的
   </Demo>
 </section>
 

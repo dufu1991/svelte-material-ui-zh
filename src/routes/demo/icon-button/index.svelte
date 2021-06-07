@@ -1,3 +1,10 @@
+<script>
+  import Demo from "../../../components/Demo.svelte";
+  import Simple from "./_Simple.svelte";
+  import Toggle from "./_Toggle.svelte";
+  import Svgs from "./_Svgs.svelte";
+</script>
+
 <svelte:head>
   <title>Icon Button - SMUI</title>
 </svelte:head>
@@ -9,16 +16,7 @@
 
   <Demo component={Simple} file="icon-button/_Simple.svelte" />
 
-  <Demo component={Toggle} file="icon-button/_Toggle.svelte">
-    切换按钮
-  </Demo>
+  <Demo component={Toggle} file="icon-button/_Toggle.svelte">切换按钮</Demo>
 
   <Demo component={Svgs} file="icon-button/_Svgs.svelte">使用 SVG</Demo>
 </section>
-
-<script>
-  import Demo from '../../../components/Demo.svelte';
-  import Simple from './_Simple.svelte';
-  import Toggle from './_Toggle.svelte';
-  import Svgs from './_Svgs.svelte';
-</script>

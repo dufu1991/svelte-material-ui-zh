@@ -289,12 +289,12 @@
       [
       <a href="https://discord.gg/aFzmkrmg9P">Discord</a>
       |
-      <a href="https://github.com/hperrin/svelte-material-ui">GitHub</a>
+      <a href="https://github.com/dufu1991/svelte-material-ui-zh">GitHub</a>
       |
       <a href="https://github.com/hperrin/svelte-material-ui/issues"
         >Issue Tracker</a
       >
-      | &copy; 2021 Hunter Perrin ]
+      | &copy; 2021 dufu ]
     </p>
   </div>
 </section>

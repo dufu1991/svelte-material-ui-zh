@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section>
-  <h2>Floating Action Button 提升动作按钮</h2>
+  <h2>Floating Action Button 浮动操作按钮</h2>
 
   <pre class="demo-spaced">npm i -D @smui/fab</pre>
 
@@ -13,7 +13,7 @@
     主题色
   </Demo>
 
-  <Demo component={Exited} file="fab/_Exited.svelte">退出</Demo>
+  <Demo component={Exited} file="fab/_Exited.svelte">消失</Demo>
 
   <Demo component={Mini} file="fab/_Mini.svelte">小尺寸</Demo>
 

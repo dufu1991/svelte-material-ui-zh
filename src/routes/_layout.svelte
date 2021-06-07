@@ -96,7 +96,7 @@
       ],
     },
     {
-      name: "Floating Action Button 提升动作按钮",
+      name: "Floating Action Button 浮动操作按钮",
       route: "/demo/fab/",
       indent: 1,
       repos: [
