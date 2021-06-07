@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-  <title>Svelte Material UI 中文网</title>
+  <title>Svelte Material UI 中文网 ｜ Svelte Material UI 中文文档</title>
 </svelte:head>
 
 <section>

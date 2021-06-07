@@ -411,7 +411,7 @@
       </Section>
       <Section align="end" toolbar style="color: var(--mdc-on-surface, #000);">
         {#if activeSection}
-          {#each activeSection.repos || [] as repo}
+          <!-- {#each activeSection.repos || [] as repo}
             <Wrapper>
               <IconButton href={repo} target="_blank">
                 <Icon component={Svg} viewBox="0 0 24 24">
@@ -420,7 +420,7 @@
               </IconButton>
               <Tooltip>查看文档: {repo.split("/").slice(-1)[0]}</Tooltip>
             </Wrapper>
-          {/each}
+          {/each} -->
           {#if !activeSection.nosource}
             <Wrapper>
               <IconButton
@@ -454,12 +454,12 @@
           </Wrapper>
         {/if}
         <Wrapper>
-          <IconButton href="https://github.com/hperrin/svelte-material-ui">
+          <IconButton href="https://github.com/dufu1991/svelte-material-ui-zh">
             <Icon component={Svg} viewBox="0 0 24 24">
               <path fill="currentColor" d={mdiGithub} />
             </Icon>
           </IconButton>
-          <Tooltip>SMUI on GitHub</Tooltip>
+          <Tooltip>SMUI-zh on GitHub</Tooltip>
         </Wrapper>
         <Wrapper>
           <IconButton
