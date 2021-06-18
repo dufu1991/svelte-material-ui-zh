@@ -294,7 +294,11 @@
       <a href="https://github.com/hperrin/svelte-material-ui/issues"
         >Issue Tracker</a
       >
-      | &copy; 2021 dufu ]
+      | &copy; 2021 dufu |
+      <a href="https://beian.miit.gov.cn/" target="_blank"
+        >滇ICP备17004037号-2</a
+      >
+      ]
     </p>
   </div>
 </section>
